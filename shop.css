@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./WP.jpg);
+    background-position:unset;
+    background-size:100vw;
+    
+}
+.tp1{
+    color: blue;
+    font-size: 100px;
+    font-weight: 500;
+   
+    font-family: 'Architects Daughter', cursive;
+    display: flex;
+}
+.tp2{
+    color: orangered;
+}
+img {
+width: 200px;
+height: 200px;
+}
+.item{
+    flex:1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img:hover{
+    zoom: 130%;
+}
+.vitrine {
+    width: 80vw;
+    height: 60vh;
+
+    display:flex;
+    flex-direction: column;
+    
+}
+.row {
+    flex:1;
+    display: flex;
+    align-items: center;
+}
