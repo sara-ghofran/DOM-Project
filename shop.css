@@ -34,14 +34,18 @@ navbar {
     font-family:'Lato', sans-serif;
     display: flex;
 }
-
 .item{ 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 450px;
-    background-color: darkcyan;
+    box-shadow: 0px 0px 12px 6px black;
 }
+.item:hover {
+    box-shadow: 0px 0px 12px 6px rgb(245,235,178);
+ }
+
+
 .vitrine {
     position: relative;
     top:10vh;
@@ -54,7 +58,7 @@ navbar {
     justify-content: flex-start;
 }
 .column {
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -95,6 +99,8 @@ navbar {
 img {
  height: 250px;
  width: 250px;
+ background-color: beige;
+ border-radius: 5px; 
     }
 .items {
     display: flex;
@@ -103,7 +109,13 @@ img {
 .row {
     display: flex;
     justify-content: space-evenly;
-    height:50px;
+    align-items: center;
+    height:30px;
+    width: 100%;
+    font-family:'Lato', sans-serif; 
+    color: rgb(245,235,178);
+    font-size: 20px;
+    font-weight: 500;
 }
 .bottom {
     height: 20vh;
@@ -111,13 +123,24 @@ img {
 .right {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
     height: 100%;
+    width: 180px;
+    font-family:'Lato', sans-serif; 
+    color: rgb(245,235,178);
 }
-p{
-    font-family:'Lato', sans-serif;
+.name{
     font-size: 2em;
     font-weight: 800;
-    text-align: center;
-    color: rgb(245,235,178);
+    text-align: left;
+}
+.price {
+    font-size: 20px;
+    font-weight: 300;
+}
+.quant{
+    width: 20px;
+    height:80%;
+    font-weight: 500;
 }
