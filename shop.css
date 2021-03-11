@@ -26,13 +26,22 @@ navbar {
     background-color:rgb(197,38,1);
     width: 100vw;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
 }
 .title{
+    
     color: rgb(245,235,178);
     font-size: 70px;
     font-weight: bolder;
     font-family:'Lato', sans-serif;
     display: flex;
+    align-items: center;
+   
+    
 }
 .item{ 
     display: flex;
@@ -96,7 +105,7 @@ navbar {
     flex: 4;
      }
 
-img {
+.image {
  height: 250px;
  width: 250px;
  background-color: beige;
@@ -143,4 +152,25 @@ img {
     width: 20px;
     height:80%;
     font-weight: 500;
+}
+.check {
+    margin: 0px 10px 0px 10px ;
+    border-radius: 5px;
+    border: unset rgb(192, 85, 85);
+    width: 50px; 
+    height:65%; 
+    font-size: 30px;
+}
+
+ .icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    filter: invert(99%) sepia(0%) ;
+}
+.clicked{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    filter: invert(18%) sepia(99%) saturate(2760%) hue-rotate(10deg) brightness(91%) contrast(106%)
 }
