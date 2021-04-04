@@ -35,37 +35,3 @@ for(let i=0;i<plus.length;i++){
     } 
 })
 }
-
-
-/*const button = document.querySelector("#btn");
-const prnt =document.querySelector(".Todoitem");
-
-
-
-button.addEventListener("click", () => {
- const text=document.querySelector("#txt");
- if(text.value){
- const newtodo= document.createElement("div");
-  prnt.appendChild(newtodo);
-  newtodo.setAttribute('class','item')
-  const name= document.createElement("div");
-  name.innerHTML=text.value
-  text.value=''
-  newtodo.appendChild(name);
-  name.setAttribute("class","nom")
-  const check= document.createElement("input");
-  check.setAttribute('type','checkbox')
-  newtodo.appendChild(check);
-  const delet= document.createElement("button");
-  delet.setAttribute('class','supp')
-  delet.innerHTML='Delete'
-  newtodo.appendChild(delet);
-  delet.addEventListener("click", () => {
-    if(check.checked){
-      const x=delet.parentNode
-      x.parentNode.removeChild(x)
-    }
-})
-}
-});
-console.log(prnt)*/
